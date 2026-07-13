@@ -85,7 +85,7 @@ Three models were trained and evaluated on the final 500 held-out hours:
 | Prophet | 0.549 | 0.701 | Automatic trend/seasonality decomposition |
 | **XGBoost** | **0.361** | **0.529** | Best performer; relies on engineered lag & temporal features |
 
-**Key insight**: The most predictive feature for XGBoost is the immediately prior hour's consumption (`Lag1`), followed by the same hour on the previous day (`Lag24`) — confirming that household energy usage is strongly autoregressive with both short-term and daily-cycle dependencies. Full model trade-offs and scenario-based recommendations are detailed in the report.
+**Key insight**: The most predictive feature for XGBoost is the immediately prior hour's consumption (`Lag1`), followed by the same hour on the previous day (`Lag24`) — confirming that household energy usage is strongly autoregressive with both short-term and daily-cycle dependencies. Full model trade-offs and scenario-based recommendations are detailed in the [report](report/EnergyConsumptionTimeSeriesForecasting.pdf).
 
 ---
 
