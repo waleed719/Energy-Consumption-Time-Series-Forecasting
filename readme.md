@@ -2,7 +2,7 @@
 
 This project forecasts short-term household electricity consumption using historical power usage data, comparing a classical statistical model, a decomposition-based model, and a machine learning model. These forecasts help utility operators and smart-home systems anticipate demand and optimize energy usage.
 
-A full write-up of the methodology, findings, and business recommendations is available in **`Household_Energy_Forecasting_Report.docx`**.
+A full write-up of the methodology, findings, and business recommendations is available in **`EnergyConsumptionTimeSeriesForecasting.pdf`**.
 
 ## Project Structure
 
